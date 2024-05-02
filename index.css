@@ -1,0 +1,463 @@
+body{
+    background-color: #141410;
+}
+.home {
+    height: 1000px;
+    overflow: hidden;
+}
+
+
+
+#bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background-position: center center;
+    margin-bottom: none;
+      
+    
+}
+
+#navbar a {
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    margin-top:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* justify-content: space-between; */
+}
+
+.imglogo { 
+    height: 25px;
+    padding-left: 80px; 
+    margin-top: 15px;
+    
+}
+
+.logodiv {
+    border: 0.25px solid #242424;
+    width: 175px;  
+    border-top: none;
+    border-left: none;
+    margin-left: -1px;
+    cursor: pointer;
+    
+}
+
+#navbar {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    border: 0.25px solid #242424;
+    border-top: none;
+    border-left: none;
+    position: fixed;
+    background-color: black;
+        
+}
+
+.openNavBtn {
+    color: white;
+    background-color: #c9f31d;
+    border-radius: 5px;
+    height: 25px;
+    border: 0px;
+    text-decoration: none;
+}
+
+
+.talk {
+    width: 100px;
+    height: 40px;
+    color: black;
+    background-color: #c9f31d;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+#side-bar-btn div {
+    width: 15px;
+    height: 1px;
+    background-color: black;
+    margin-left: 10px;
+    /* justify-content: center; */
+    margin-top: 2px;
+}
+
+#side-bar-btn {
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 12px;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+.div2 {
+    width: 250px;
+    height: inherit;
+    display: flex;
+    border: 0.25px solid #242424;
+    border-top: none;
+    background-color: black;
+   
+}
+
+
+/* 
+#soc-midia-logo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+} */
+
+.nav-bar-link {
+    list-style: none;
+    text-justify: distribute;
+    justify-content: space-between;
+    word-spacing: 30.5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.nav-bar-link :hover{
+    color: #c9f31d;
+}
+
+.manimg {
+    height: 510px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 250px;
+    margin-top: 100px;
+    z-index: -1;
+    margin-bottom: none;
+}
+
+/* .body1{
+    width: 600px;
+    height: 800px;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   border: 2px solid green; */
+
+.visual {
+    color: white;
+    
+}
+.visual p {
+    font-size: 50px;
+    margin: 100px;
+    margin-left: 200px;
+    /* justify-content: center;
+    align-content: center; */
+}
+.visual .words {
+    font-size: 16px;
+    margin-top: 0px;
+    margin: none;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.words {
+    font-style: normal;
+    margin-top: 150px;
+    color: aliceblue;
+    margin-left:100px ;
+}
+hr{
+    width: 230px;
+    height: 0px;
+    margin-left: 105px;
+}
+h2{
+    color:white;
+    margin-left: 100px;
+    font-size: 70px;
+}
+
+.bold1{
+    margin-top: 10px;
+}
+/* .line {
+    border-top: 1px solid white; Adjust color and thickness as needed
+    width: 100%; Adjust width as needed
+     */
+/* } */
+/* .bold1 {
+    font-size: 35px; */
+/* } */
+
+
+@keyframes colorchange {
+    50% { 
+        width: 100%;
+    }
+  }
+
+  .design{
+    position: relative;
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px ;
+}
+.design:before{
+    content: "Designer";
+    position: absolute;
+    color: #c9f31d;
+    overflow: hidden;
+    animation: colorchange 3s ease-in-out infinite;
+
+    width: 0px;
+    -webkit-text-stroke-color: #c9f31d;
+    -webkit-text-stroke-width: 2px;
+}
+.work-process{
+    color: white;
+ }
+
+.work-div{
+    display:flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: -30px;
+   }
+.work-div i{
+    font-size: 50px;
+    z-index: -1;
+   }
+
+.container {
+    background-color: #c9f31d;
+    height: 100px;
+    margin-top: 100px;
+    align-content:center;
+    border: 1px solid black;
+    border-left: none; 
+    border-right: none;
+    margin-bottom: none;
+}
+
+
+
+.level2 p {
+    color: #f1f1f1;
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    word-spacing: 5px;
+    line-height: 60px;
+    
+}
+.star {
+    margin-left: 50%;
+    margin-top: none;
+}
+
+.about {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 28%;
+
+}
+.about .abt-btn {
+    border-radius: 7px;
+    text-align: center;
+    padding: 18px;
+    margin: 15px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1;
+    background-color: #242424;
+}
+
+.yellow-about {
+    color: #141410;
+    background-color: #c9f31d;
+    padding: 18px;
+    margin: 15px;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    font-size: 16px;
+}
+
+.bg-about {
+    height: 800px;
+    width: 1500px;
+    align-items: center;
+    margin-left: 95px;
+    z-index: -1;
+}
+.work-img {
+    margin-left: 150px;
+    margin-top: -700px;
+   
+}
+.personal-info {
+    display: grid;
+    grid-template-columns: auto auto ;
+    color: #f1f1f1;
+    padding: 10px;
+    gap: 10px;
+    height: 200px;
+    width: 800px;
+    margin-left: 600px;
+    margin-top: 0px;
+    
+}
+
+
+
+
+.personal-info > div {
+    padding: 40px;
+    margin: 10px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 7px;
+    height: 100px;
+    width: 270px; 
+    background-color: #1d1d1d;
+    
+}
+
+.personal-info > div :hover {
+    border: 1px solid #c9f31d;
+}
+
+.item1 > h2 {
+    text-align: left;
+    font-size: 55px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    /* margin-left: none; */
+}
+.item1 > p {
+    text-align: left;
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 0;
+    font-family: 'Lato', sans-serif
+    
+}
+.item1 {
+    margin-left: 600px;
+    margin-top: -600px;
+    height: 200px;
+    width: 800px;
+}
+.images {
+    background-color: #c9f31d;
+    height: 100px;
+    margin-top: 400px;
+    align-content: center;
+    border: 1px solid black;
+    border-left: none; 
+    border-right: none;
+    margin-bottom: none;
+    
+    
+}
+.images {
+    overflow: hidden; /* Hide the overflow */
+    width: 100%; /* Set the width of the marquee */
+}
+
+.images img {
+    animation: marquee 8s linear infinite; /* Set animation */
+    display: inline-flex; /*Display the image as a block element*/
+    margin-right: 20px; /* Add spacing between images */
+    flex-shrink: 0; /* Prevent images from shrinking */
+
+}
+
+@keyframes marquee {
+    100% { transform: translateX(100%); } /* Move image to the right */
+}
+
+
+
+/* .grn-img {
+    height: 18px;
+    width: px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px; */
+/* } */
+
+/* from w3 schools */
+/* body {
+    font-family: 'Lato', sans-serif;
+  } */
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+
+
